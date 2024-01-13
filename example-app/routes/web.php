@@ -1,5 +1,6 @@
 <?php
-use App\Http\Controllers\MyController;
+//use App\Http\Controllers\MyController;
+use App\Http\Controllers\HW5_Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,8 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//เนื้อหา 4-1-66
 
+/* HOMEWORK 5 Author : Miss Duangkamon Lueariyasap ID : 65160219 SEC : 1 */
+
+Route::get('/my-form', [HW5_Controller::class, 'index']);
+
+
+//เนื้อหา 4-1-66
+/*
 Route::get('/my-controller', [MyController::class, 'index']);
 
 Route::get('/my-controller2', 'App\Http\Controllers\MyController@index');
@@ -25,7 +32,7 @@ Route::namespace('App\Http\Controllers')->group(function(){
 });
 
 Route::resource('/my-controller4', MyController::class);
-
+*/
 
 
 
