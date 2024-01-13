@@ -16,10 +16,9 @@ class HW5_Controller extends Controller
     public function index(){
         return view('HW5_Form');
     }
-    /*
+
     public function store(Request $req){
         $data['myinput'] = $req->input('myinput');
         return view('myroute', $data);
     }
-    */
 }
