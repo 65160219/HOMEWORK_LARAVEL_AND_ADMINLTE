@@ -23,7 +23,7 @@
         </div><!-- /.container-fluid -->
       </section>
         <div class="card card-primary">
-            <div class="card-header bg-green text-white border-0">
+            <div class="card-header bg-blue text-white border-0">
               <h3 class="card-title">ข้อมูลทั่วไป</h3>
             </div>
         <form>
@@ -94,7 +94,7 @@
                                 <label class="custom-file-label" for="exampleInputFile">เลือกไฟล์</label>
                             </div>
                             <div class="input-group-append">
-                                <span class="input-group-text">อัปโหลด</span>
+                                <span class="input-group-text ">อัปโหลด</span>
                             </div>
                         </div>
                     </div>
@@ -155,8 +155,8 @@
                 </div>
 
                 <div class="card-body">
-                    <button type="reset" class="btn btn-info bg-red text-white">Reset</button>
-                    <button type="submit" class="btn btn-default float-right bg-green text-white">Submit</button>
+                    <button type="reset" class="btn btn-info bg-danger text-white">Reset</button>
+                    <button type="submit" class="btn btn-default float-right bg-success text-white">Submit</button>
                 </div>
             </div>
         </form>
